@@ -3,14 +3,30 @@
     margin: 0;
     padding: 0;
 }
-  
+
 header {
     background-color: #333;
     color: black;
-    padding: 20px;
+    padding: 2px;
     position: fixed;
     width: 100%;
 }
+  
+header img {
+    width: 50%;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
 
 footer {
     background-color: #333;
@@ -20,17 +36,6 @@ footer {
     width: 100%;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-  
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-  
 .hero {
     background-image: url('../img/fondo.jpg');
     background-size: cover;
@@ -38,7 +43,7 @@ nav ul li a {
     text-align: center;
     align-items: center center;
     padding: 100px;
-    padding-top: 160px;
+    padding-top: 340px;
 }
   
 .hero h1 {
@@ -65,3 +70,17 @@ nav ul li a {
     border-radius: 5px;
     border: 3px solid #333;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+  
+.container div {
+    flex-basis: 20%;
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+  
